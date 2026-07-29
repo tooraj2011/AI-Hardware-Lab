@@ -1,0 +1,46 @@
+# ===== IDE =====
+.vscode/
+.idea/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Python =====
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ===== STM32 =====
+Debug/
+Release/
+*.elf
+*.hex
+*.bin
+*.map
+
+# ===== FPGA =====
+*.bit
+*.bin
+*.xpr
+*.runs/
+
+# ===== KiCad =====
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# ===== Simulation =====
+*.raw
+*.log
+
+# ===== Temporary =====
+*.tmp
+*.bak
+*.swp
+
+# ===== Secrets =====
+.env
+*.key
+*.pem
