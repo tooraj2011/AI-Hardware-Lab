@@ -1,38 +1,55 @@
 (kicad_sch
-  (version 20230620)
-  (generator "eeschema")
-  (generator_version "7.0")
-  (uuid "8f2f8777-e2b7-4b9c-8b3c-4fd94e7a48c1")
-  (paper "A4")
-  (title_block
-    (title "EV Charger Controller Prototype")
-    (date "2026-08-01")
-    (rev "0.1")
-    (company "AI Hardware Lab")
-  )
-  (lib_symbols)
-  (sheet
-    (at 0 0)
-    (size 180 120)
-    (stroke (width 0.1) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid "11111111-1111-1111-1111-111111111111")
-    (property "Sheetname" "Root")
-    (property "Sheetfile" "EV_Charger_KiCad_Prototype.kicad_sch")
-    (text "EV Charger Controller" (at 12 20 0))
-    (text "Main Control MCU" (at 12 42 0))
-    (text "Safety Supervisor" (at 12 60 0))
-    (text "Power / Protection" (at 12 78 0))
-    (text "Measurement Front-End" (at 12 96 0))
-    (text "Communication Stack" (at 12 114 0))
-    (wire (pts (xy 10 18) (xy 90 18)))
-    (wire (pts (xy 10 40) (xy 90 40)))
-    (wire (pts (xy 10 58) (xy 90 58)))
-  )
-  (sheet_instances
-    (path "/"
-      (page "1")
-    )
-  )
-  (embedded_fonts no)
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8f2f8777-e2b7-4b9c-8b3c-4fd94e7a48c1")
+	(paper "A4")
+	(title_block
+		(title "EV Charger Controller Prototype")
+		(date "2026-08-01")
+		(rev "0.1")
+		(company "AI Hardware Lab")
+	)
+	(lib_symbols)
+	(sheet
+		(at 0 0)
+		(size 180 120)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "11111111-1111-1111-1111-111111111111")
+		(property "Sheetname" "Root"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sheetfile" "EV_Charger_KiCad_Prototype.kicad_sch"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
