@@ -25,6 +25,9 @@
     (text "Power / Protection" (at 12 78 0))
     (text "Measurement Front-End" (at 12 96 0))
     (text "Communication Stack" (at 12 114 0))
+    (wire (pts (xy 10 18) (xy 90 18)))
+    (wire (pts (xy 10 40) (xy 90 40)))
+    (wire (pts (xy 10 58) (xy 90 58)))
   )
   (sheet_instances
     (path "/"

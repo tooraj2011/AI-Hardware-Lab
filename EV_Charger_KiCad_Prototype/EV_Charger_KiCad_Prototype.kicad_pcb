@@ -1,4 +1,4 @@
-(kicad_pcb (version 20240108) (generator "pcbnew")
+(kicad_pcb (version 20221018) (generator pcbnew)
   (general
     (thickness 1.6)
     (drawings 0)
@@ -7,7 +7,7 @@
     (modules 0)
     (nets 0)
   )
-  (page A4)
+  (paper "A4")
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
@@ -32,17 +32,6 @@
   )
   (setup
     (pad_to_mask_clearance 0.05)
-    (pcbplotparams
-      (layerselection 0x010fc_ffffffff)
-      (plot_on_all_layers_selection 0x0000000)
-      (disableapertmacros false)
-      (usegerberextensions false)
-      (usegerberattributes true)
-      (usegerberadvancedattributes true)
-      (creategerberjobfile false)
-      (dashed_line_dash_ratio 12.000000)
-      (dashed_line_gap_ratio 3.000000)
-      (svgprecision 6)
-    )
   )
+  (gr_rect (start 10 10) (end 120 80) (layer "Edge.Cuts") (width 0.1))
 )
