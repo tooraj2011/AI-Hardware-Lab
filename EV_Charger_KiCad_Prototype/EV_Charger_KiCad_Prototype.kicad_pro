@@ -10,27 +10,33 @@
         "copper_line_width": 0.2,
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
-        "copper_text_thickness": 0.3
+        "copper_text_thickness": 0.3,
+        "line_width": 0.15,
+        "text_size_h": 1.5,
+        "text_size_v": 1.5,
+        "text_thickness": 0.3
       },
       "rule_severities": {
         "annular_width": "error",
         "clearance": "error",
-        "connection_width": "warning"
+        "connection_width": "warning",
+        "copper_diameter": "warning",
+        "duplicate_pad_nets": "warning",
+        "extra_footprint": "warning",
+        "footprint_symbol_mismatch": "warning",
+        "hole_clearance": "warning",
+        "hole_to_hole": "warning",
+        "invalid_outline": "warning",
+        "item_on_disabled_layer": "warning",
+        "layer_conflict": "warning",
+        "malformed_courtyard": "warning",
+        "microvia_drill_out_of_range": "warning"
       }
-    }
-  },
-  "erc": {
-    "erc_exclusions": [],
-    "meta": {
-      "version": 0
     }
   },
   "libraries": {
     "footprint": [],
     "symbol": []
-  },
-  "net_settings": {
-    "classes": []
   },
   "pcbnew": {
     "last_paths": {}
